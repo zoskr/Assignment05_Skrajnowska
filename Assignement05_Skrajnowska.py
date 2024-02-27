@@ -21,8 +21,9 @@ class BasicMathOperations:
         elif(operation == "divide"): output = num1 / num2
         else: print("Invalid operation.")
         if(output): print("Output is ", output)
-    def squareNumber():
-        
+    def squareNumber(num):
+        square = num ^ 2;
+        return square
     def factorial():
         
     def counting():
