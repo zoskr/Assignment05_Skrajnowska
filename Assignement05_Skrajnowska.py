@@ -52,8 +52,9 @@ class BasicMathOperations:
         hypo = (self.calculateSquare(base) + self.calculateSquare(perpendicular))^0.5
         return hypo
     
-    def areaOfRect():
-        
+    def areaOfRect(width,height):
+        area = width * height
+        return area
     def power():
         
     def typeOfArg():
