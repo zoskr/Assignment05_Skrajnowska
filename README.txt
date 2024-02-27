@@ -1,0 +1,3 @@
+Assignement 05 helps to imporve the understanding of Object-Oriented Programming. The project focuses on creating a class BasicMathOperations and implementing a series of functions assosiated with that class. A main() function is also implemented to allow for user interaction.
+
+The program runs in a very self explanaorty manner. The user is prompted with a list of letters and their corresponding functions. Entering a number prompts the function to run. The letter K ends the program. 
