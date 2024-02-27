@@ -29,8 +29,9 @@ class BasicMathOperations:
         for i in range(1,num + 1):
             fact *= i
         return fact
-    def counting():
-        
+    def counting(start,end):
+        for i in range(start,end):
+            print(i)
     def computeHyponenuse():
         
     def calculateSquare():
