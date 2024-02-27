@@ -14,8 +14,13 @@ class BasicMathOperations:
         b = float(input())
         sum = a + b
         return sum
-    def preformOperations():
-        
+    def preformOperations(num1, num2, operation):
+        if(operation == "add"): output = num1 + num2
+        elif(operation == "subtract"): output = num1 - num2
+        elif(operation == "multiply"): output = num1 * num2
+        elif(operation == "divide"): output = num1 / num2
+        else: print("Invalid operation.")
+        if(output): print("Output is ", output)
     def squareNumber():
         
     def factorial():
