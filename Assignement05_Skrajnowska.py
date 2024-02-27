@@ -26,7 +26,7 @@ class BasicMathOperations:
         if(output): print("Output is ", output)
     
     def squareNumber(num):
-        square = num ^ 2;
+        square = num ** 2;
         return square
     
     def factorial(num):
@@ -55,8 +55,9 @@ class BasicMathOperations:
     def areaOfRect(width,height):
         area = width * height
         return area
-    def power():
-        
+    def power(base,exp):
+        val = base ** exp
+        return val
     def typeOfArg():
         
 
