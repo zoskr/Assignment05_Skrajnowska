@@ -1,8 +1,12 @@
 class BasicMathOperations:
-    def _init_():
-        
+    def _init_(self):
+        self.name = ""
     def greetUser():
-        
+        print("What is your first name?")
+        self.firstName = input()
+        print("What is your last name?")
+        self.lastName = input()
+        print("Hello ", self.firstName, " ", self.lastName)
     def addNumbers():
         
     def preformOperations():
