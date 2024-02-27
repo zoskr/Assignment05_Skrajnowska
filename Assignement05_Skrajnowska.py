@@ -24,8 +24,11 @@ class BasicMathOperations:
     def squareNumber(num):
         square = num ^ 2;
         return square
-    def factorial():
-        
+    def factorial(num):
+        fact = 1
+        for i in range(1,num + 1):
+            fact *= i
+        return fact
     def counting():
         
     def computeHyponenuse():
