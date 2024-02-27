@@ -58,8 +58,8 @@ class BasicMathOperations:
     def power(base,exp):
         val = base ** exp
         return val
-    def typeOfArg():
-        
+    def typeOfArg(arg):
+        return type(arg)
 
 def main():
     
