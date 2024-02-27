@@ -8,7 +8,12 @@ class BasicMathOperations:
         self.lastName = input()
         print("Hello ", self.firstName, " ", self.lastName)
     def addNumbers():
-        
+        print("Enter first number to add:")
+        a = float(input())
+        print("Enter second number to add:")
+        b = float(input())
+        sum = a + b
+        return sum
     def preformOperations():
         
     def squareNumber():
