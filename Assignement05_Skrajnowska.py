@@ -1,10 +1,8 @@
 class BasicMathOperations:
     def greetUser(self):
-        print("What is your first name?")
-        self.firstName = input()
-        print("What is your last name?")
-        self.lastName = input()
-        print("Hello ", self.firstName, " ", self.lastName)
+        print("What is your name?")
+        name = input()
+        print("Hello ", name)
     
     def addNumbers(self):
         print("Enter first number to add:")
@@ -92,7 +90,7 @@ def main():
         elif(ans == "F"):
             print("Enter number to start counting:")
             start = int(input())
-            print("Enter nuber to end counting: ")
+            print("Enter number to end counting: ")
             end = int(input())
             obj.counting(start,end)
         elif(ans == "G"): obj.computeHyponenuse()
@@ -117,7 +115,7 @@ def main():
         else:    
             print("Invalid function.")
           
-        print("Choose function: \n[A]Greet User \n[B]Add Numbers \n[C]Preform Operation")
+        print("\nChoose function: \n[A]Greet User \n[B]Add Numbers \n[C]Preform Operation")
         print("[D]Square Number\n[E]Factorial\n[F]Counting\n[G]Compute Hypotense")
         print("[H]Area of Rectangle\n[I]Power of Number\n[J]Type of Arguement\n[K]End Program")
         ans = input()
