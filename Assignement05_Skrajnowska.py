@@ -32,6 +32,7 @@ class BasicMathOperations:
     def counting(self,start,end):
         for i in range(start,end+1):
             print(i)
+            
     def computeHyponenuse(self):
         print("Enter length of base: ")
         base = float(input())
@@ -50,9 +51,11 @@ class BasicMathOperations:
     def areaOfRect(self,width,height):
         area = width * height
         return area
+    
     def power(self,base,exp):
         val = base ** exp
         return val
+    
     def typeOfArg(self,arg):
         return type(arg)
 
@@ -110,8 +113,8 @@ def main():
             print("The value is ", val)
         elif(ans == "J"): 
             print("Enter arguement: ")
-            arg = input()
-            print(obj.typeOfArg(arg))
+            arg = eval(input())
+            print("Arg type", obj.typeOfArg(arg))
         else:    
             print("Invalid function.")
           
